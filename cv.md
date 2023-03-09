@@ -33,3 +33,11 @@ const accum = str => str
   .join('-');
 
 ```
+**********************
+Courses:
+* Udemy "WEB developer 2022" (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (done)
+
+**********************
+* Russian - Native
+*  English is somewhere between A1 Beginner and A2 Elementary (result  EF SET Quick Check)
