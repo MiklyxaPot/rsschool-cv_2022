@@ -110,3 +110,105 @@ body{
 }
 
 /* *********************** */
+
+.section {
+   margin-top: 30px;
+}
+.title {
+   font-size: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: #4d544e;
+
+}
+.contacts__link {
+   text-decoration: none;
+   color:#395c3e;
+   padding-left: 15px;
+}
+.contacts__link a{
+   text-decoration: none;
+   color:#141514
+}
+
+.contacts__link:hover{
+   text-decoration: underline;
+}
+
+.summary__text{
+   line-height: 150%;
+   padding-left: 15px;
+}
+
+.skils__item, .courses__item, .lengs__item, .project__item {
+   list-style: none;
+   margin-top: 10px;
+   
+ 
+}
+.skils__list, .courses__list, .lengs__list, .project__list {
+   position: relative;
+   padding-left: 35px;
+   
+}
+.skils__item::before, .courses__list::before, .lengs__list::before, .project__list::before {
+   content: "";
+   position: absolute;
+   top: 5px;
+   left: 15px;
+   height: 10px;
+   width: 10px;
+   border: 1px solid #829985;
+   border-radius: 25%;
+}
+
+.code{
+   line-height: 150%;
+   padding-left: 15px;
+}
+
+/* ************************** */
+.footer{
+   min-height: 50px;
+   background-color: #32b3a4;
+
+
+}
+.footer-contend {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.footer__info{
+   display: flex;
+   align-items: center;
+}
+.data {
+margin: 0 20px 0 20px;
+}
+.contact a {
+   text-decoration: none;
+   color:#141514;
+}
+
+.contact a:hover{
+   color:#fff;
+   text-decoration: underline;
+}
+.footer-img img {
+   display: flex;
+   align-items: center;
+   margin-left: 30px;
+   width: 50px;
+   height: 50px;
+}
+
+.project__item a{
+   text-decoration: none;
+   color:#141514
+}
+
+.project__item a:hover{
+   text-decoration: underline;
+}
